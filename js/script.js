@@ -21,7 +21,7 @@ function loadData() {
     $body.append('<img class="bgimg" src="'+ streetviewUrl+ '">');
     
     var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q='
-     + cityStr + '&sort=newest&api-key=84766ca63931406da275c5859c422bdb';
+     + cityStr + '&sort=newest&api-key=rGv6UttGpntUfQOpG2Kp0BfHPZHas5FF';
 
 	$.getJSON(nytimesUrl, function (data){
 	$nytHeaderElem.text('New York Times Articles About' + cityStr);
